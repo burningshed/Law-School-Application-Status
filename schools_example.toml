@@ -1,0 +1,17 @@
+
+#
+# each entry should begin with [school.SCHOOL] where SCHOOL should be unqiue to each
+#
+# replace value in name with name,
+# only used for filenames interally, ensure each is unique (can be the same as SCHOOL)
+# paste the law school status check URL in URL
+# that is the link actually used to get to the login page
+#
+# [school.SCHOOL]
+# name = "SCHOOL"
+# url = "STATUS CHECK URL"
+#
+# for example this entry is for UVA:
+[school.UVA]
+name = 'UVA'
+url = "https://aces2.lsac.org/YourStatus/membership/AppStatIdMe.aspx?guid=INeThBC1gMM%3D"

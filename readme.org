@@ -1,0 +1,32 @@
+#+TITLE: Readme
+
+* Dependencies
+** Python
+*** Fedora
+dnf install python
+** Poetry
+[[https://python-poetry.org/][Poetry - Python dependency management and packaging made easy.]]
+[[https://python-poetry.org/docs/#installation][Introduction | Documentation | Poetry - Python dependency management and pack...]]
+** geckodriver
+[[https://github.com/mozilla/geckodriver/releases][Releases · mozilla/geckodriver · GitHub]]
+I downloaded the binary and put it in my path
+** direnv
+[[https://direnv.net/docs/installation.html][Installation | direnv]]
+
+* Install
+
+1. Install Dependencies
+2. git clone this repo
+3. run poetry install
+
+* Configure
+1. rename schools_example.toml to schools.toml
+2. fill out schools.toml with the school information you want
+   (instructions comments in schools.toml)
+3. rename .envrc_example to .envrc
+4. replace EXAMPLE_USERNAME and EXAMPLE_PASSWORD with your own
+5. direnv allow
+
+* Usage
+4. poetry run python status_check.py
+5. look at summery.jpeg
