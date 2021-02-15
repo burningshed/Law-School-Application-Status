@@ -5,16 +5,16 @@
 Python, Poetry, geckodriver, direnv
 
 1. Python
-   a. Fedora
-    dnf install python
+   + Fedora
+     a. dnf install python
 2. Poetry
-    [[https://python-poetry.org/][Poetry - Python dependency management and packaging made easy.]]
-    [[https://python-poetry.org/docs/#installation][Introduction | Documentation | Poetry - Python dependency management and pack...]]
+   + [[https://python-poetry.org/][Poetry - Python dependency management and packaging made easy.]]
+   + [[https://python-poetry.org/docs/#installation][Introduction | Documentation | Poetry - Python dependency management and pack...]]
 3. geckodriver
-    [[https://github.com/mozilla/geckodriver/releases][Releases · mozilla/geckodriver · GitHub]]
-    I downloaded the binary and put it in my path
+   + [[https://github.com/mozilla/geckodriver/releases][Releases · mozilla/geckodriver · GitHub]]
+     - I downloaded the binary and put it in my path
 4. direnv
-    [[https://direnv.net/docs/installation.html][Installation | direnv]]
+   + [[https://direnv.net/docs/installation.html][Installation | direnv]]
 
 * Install
 
